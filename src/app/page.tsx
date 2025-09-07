@@ -360,10 +360,10 @@ export default function Page() {
 
                 emailjs
                   .sendForm(
-                    "service_tl8pilq",   // EmailJS Service ID
-                    "template_w9yxgzv",  // EmailJS Template ID
+                    "your_serviceid",   // EmailJS Service ID
+                    "your_templateid",  // EmailJS Template ID
                     e.target as HTMLFormElement,
-                    "8NVS0TuDBOESA4o2A" // Public Key 
+                    "your_publickey" // Public Key 
                   )
                   .then(() => {
                     setFormMessage({ text: "Message sent successfully!", type: "success" });
@@ -489,10 +489,10 @@ export default function Page() {
             <p>
               Email:{" "}
               <a
-                href="mailto:lexiecommission@gmail.com"
+                href="mailto:youremail@gmail.com"
                 className="text-pink-600 hover:underline hover:text-pink-700"
               >
-                lexiecommission@gmail.com
+                your_email@gmail.com
               </a>
             </p>
 
@@ -501,7 +501,7 @@ export default function Page() {
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
               <a
-                href="https://github.com/lexcommission"
+                href="https://github.com/your_username"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-pink-600"
@@ -509,7 +509,7 @@ export default function Page() {
                 <Icons.Github className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/lexiecomms"
+                href="https://x.com/your_username"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-pink-600"
@@ -521,7 +521,7 @@ export default function Page() {
         </div>
 
         <div className="border-t text-center py-4 text-xs text-slate-500">
-          © {new Date().getFullYear()} LEXIE. All rights reserved.
+          © {new Date().getFullYear()} name. All rights reserved.
         </div>
       </footer>
     </div>
