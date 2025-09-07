@@ -35,4 +35,4 @@ Follow us:
 
 ---
 
-© 2025 **Academic Commission**. All rights reserved.
+© 2025 **LEXIE**. All rights reserved.
