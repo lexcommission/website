@@ -18,7 +18,8 @@ This is the official website for **Academic Commission**, showcasing services in
 
 ## 🛠️ Tech Stack
 - [Next.js](https://nextjs.org/)  
-- [Tailwind CSS](https://tailwindcss.com/)  
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)  
 - [Framer Motion](https://www.framer.com/motion/)  
 - [Lucide Icons](https://lucide.dev/)  
 - [EmailJS](https://www.emailjs.com/)  
