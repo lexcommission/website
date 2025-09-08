@@ -257,7 +257,7 @@ export default function Page() {
               </ul>
             </div
 
-            {/* Research & Academic Writing */}
+            {/* Research */}
             <div className="bg-white rounded-2xl shadow-md p-6 text-left 
                             transition transform hover:-translate-y-2 hover:scale-105 
                             hover:shadow-lg hover:shadow-pink-200">
