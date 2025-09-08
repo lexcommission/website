@@ -95,26 +95,25 @@ export default function Page() {
         {menuOpen && (
           <div className="md:hidden bg-white border-t border-pink-200">
             <nav className="flex flex-col p-4 gap-4 text-sm">
+              <a href="#hero" onClick={() => setMenuOpen(false)} className="hover:text-pink-600">
+                Home
+              </a>
               <a href="#services" onClick={() => setMenuOpen(false)} className="hover:text-pink-600">
                 Services
               </a>
               <a href="#how-i-work" onClick={() => setMenuOpen(false)} className="hover:text-pink-600">
                 How I Work
               </a>
-              <a href="#faq" onClick={() => setMenuOpen(false)} className="hover:text-pink-600">
-                FAQ
-              </a>
               <a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-pink-600">
                 Contact
               </a>
               <a
-                href="#contact"
-                onClick={() => setMenuOpen(false)}
-                className="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl bg-pink-500 text-white shadow hover:shadow-md"
-              >
-                <Mail className="w-4 h-4" />
-                Get a Quote
-              </a>
+              href="mailto:lexiecommission@gmail.com"
+              className="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl bg-pink-500 text-white shadow hover:shadow-md"
+            >
+              <Mail className="w-4 h-4" />
+              Get a Quote
+            </a>
             </nav>
           </div>
         )}
@@ -137,9 +136,10 @@ export default function Page() {
 
               <p className="mt-4 text-lg text-slate-700 leading-relaxed">
                 As your <span className="font-semibold">Academic Commissioner</span>, I provide clear, reliable support in three areas:
-                <br />• <span className="font-semibold">Website Development</span> — front-end, back-end, and full-stack projects.
-                <br />• <span className="font-semibold">Editing & Design</span> — logo, report, and infographic.
-                <br />• <span className="font-semibold">Math & Science Solutions</span> — from basic math to calculus, physics, and chemistry.
+                <br />• <span className="font-semibold">Website Development</span> — Front-end, Back-end, and Full-stack projects.
+                <br />• <span className="font-semibold">Editing & Design</span> — Logo, Report, and Infographic.
+                <br />• <span className="font-semibold">Math & Science Solutions</span> — From basic math to calculus, physics, and chemistry.
+                <br />• <span className="font-semibold">Academic Writing</span> - Research & Thesis.
               </p>
                 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -208,7 +208,6 @@ export default function Page() {
                 <li>Brochures</li>
                 <li>Infographics</li>
                 <li>PowerPoint</li>
-                <li>Report Formatting</li>
                 <li>UI/UX</li>
                 <li>Graphics</li>
               </ul>
@@ -247,10 +246,36 @@ export default function Page() {
                 </h3>
               </div>
               <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Front-end</li>
-                <li>Back-end</li>
-                <li>Full-stack</li>
+                <li>Front-end Development</li>
+                <li>Back-end Development</li>
+                <li>Full-stack Development</li>
+                <li>Website Development</li>
                 <li>System Projects</li>
+                <li>Mobile App Development</li>
+                <li>Automations</li>
+                <li>Database Management</li>
+              </ul>
+            </div
+
+            {/* Research & Academic Writing */}
+            <div className="bg-white rounded-2xl shadow-md p-6 text-left 
+                            transition transform hover:-translate-y-2 hover:scale-105 
+                            hover:shadow-lg hover:shadow-pink-200">
+              <div className="flex items-center mb-4">
+                <GraduationCap className="w-6 h-6 text-pink-600 mr-2" />
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Research & Writing
+                </h3>
+              </div>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>Research</li>
+                <li>Capstone</li>
+                <li>Thesis</li>
+                <li>Essays</li>
+                <li>Case Studies</li>
+                <li>Journal</li>
+                <li>Report</li>
+                <li>Narrative</li>
               </ul>
             </div>
           </div>
@@ -413,6 +438,7 @@ export default function Page() {
                     <option value="design and editing">🎨 Design and Editing</option>
                     <option value="solutions">📚 Solutions</option>
                     <option value="web">💻 Web Development</option>
+                    <option value="research">📖 Research & Writing</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -475,6 +501,7 @@ export default function Page() {
           <div>
             <h4 className="font-semibold text-pink-700 mb-3">Quick Links</h4>
             <ul className="space-y-2">
+              <li><a href="#hero" className="hover:text-pink-600">Home</a></li>
               <li><a href="#services" className="hover:text-pink-600">Services</a></li>
               <li><a href="#how-i-work" className="hover:text-pink-600">How I Work</a></li>
               <li><a href="#contact" className="hover:text-pink-600">Contact</a></li>
