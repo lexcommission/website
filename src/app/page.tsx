@@ -70,7 +70,6 @@ export default function Page() {
             <a href="#hero" className="hover:text-pink-600">Home</a>
             <a href="#services" className="hover:text-pink-600">Services</a>
             <a href="#how-i-work" className="hover:text-pink-600">How I Work</a>
-            <a href="#faq" className="hover:text-pink-600">FAQ</a>
             <a href="#contact" className="hover:text-pink-600">Contact</a>
           </nav>
 
