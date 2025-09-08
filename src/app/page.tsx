@@ -75,12 +75,13 @@ export default function Page() {
 
           {/* CTA Button (Desktop only) */}
           <a
-            href="#contact"
+            href="mailto:lexiecommission@gmail.com"
             className="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl bg-pink-500 text-white shadow hover:shadow-md"
           >
             <Mail className="w-4 h-4" />
             Get a Quote
           </a>
+
 
           {/* Mobile Menu Button */}
           <button
@@ -108,12 +109,13 @@ export default function Page() {
                 Contact
               </a>
               <a
-              href="mailto:lexiecommission@gmail.com"
-              className="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl bg-pink-500 text-white shadow hover:shadow-md"
-            >
-              <Mail className="w-4 h-4" />
-              Get a Quote
-            </a>
+                href="mailto:your-email@example.com"
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center gap-2 text-sm font-medium px-3 py-2 rounded-xl bg-pink-500 text-white shadow hover:shadow-md"
+              >
+                <Mail className="w-4 h-4" />
+                Get a Quote
+              </a>
             </nav>
           </div>
         )}
@@ -136,10 +138,10 @@ export default function Page() {
 
               <p className="mt-4 text-lg text-slate-700 leading-relaxed">
                 As your <span className="font-semibold">Academic Commissioner</span>, I provide clear, reliable support in three areas:
-                <br />• <span className="font-semibold">Website Development</span> — Front-end, Back-end, and Full-stack projects.
-                <br />• <span className="font-semibold">Editing & Design</span> — Logo, Report, and Infographic.
-                <br />• <span className="font-semibold">Math & Science Solutions</span> — From basic math to calculus, physics, and chemistry.
-                <br />• <span className="font-semibold">Academic Writing</span> - Research & Thesis.
+                <br />• <span className="font-semibold">Website Development</span> — front-end, back-end, and full-stack projects.
+                <br />• <span className="font-semibold">Editing & Design</span> — logo, report, and infographic.
+                <br />• <span className="font-semibold">Math & Science Solutions</span> — from basic math to calculus, physics, and chemistry.
+                <br />• <span className="font-semibold">Academic Writing</span> — Research & Thesis.
               </p>
                 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -208,6 +210,7 @@ export default function Page() {
                 <li>Brochures</li>
                 <li>Infographics</li>
                 <li>PowerPoint</li>
+                <li>Report Formatting</li>
                 <li>UI/UX</li>
                 <li>Graphics</li>
               </ul>
@@ -249,13 +252,12 @@ export default function Page() {
                 <li>Front-end Development</li>
                 <li>Back-end Development</li>
                 <li>Full-stack Development</li>
-                <li>Website Development</li>
                 <li>System Projects</li>
-                <li>Mobile App Development</li>
+                <li>Mobile Development</li>
                 <li>Automations</li>
                 <li>Database Management</li>
               </ul>
-            </div
+            </div>
 
             {/* Research */}
             <div className="bg-white rounded-2xl shadow-md p-6 text-left 
@@ -438,7 +440,7 @@ export default function Page() {
                     <option value="design and editing">🎨 Design and Editing</option>
                     <option value="solutions">📚 Solutions</option>
                     <option value="web">💻 Web Development</option>
-                    <option value="research">📖 Research & Writing</option>
+                    <option value="research">🖋️ Research and Writing</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -521,7 +523,7 @@ export default function Page() {
               </a>
             </p>
 
-            <p className="mt-2">Office Hours: Monday - Friday, 9am – 10pm</p>
+            <p className="mt-2">Office Hours: Monday - Sunday, 7am – 11pm</p>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
