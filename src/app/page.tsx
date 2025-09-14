@@ -265,7 +265,7 @@ export default function Page() {
                 <li>Mobile Development</li>
                 <li>Automations</li>
                 <li>API & Database Integration</li>
-                <li>Deployment % Hosting Setup</li>
+                <li>Deployment & Hosting Setup</li>
               </ul>
             </div>
 
