@@ -205,14 +205,20 @@ export default function Page() {
                 </h3>
               </div>
               <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Logos</li>
-                <li>Resumes</li>
-                <li>Brochures</li>
-                <li>Infographics</li>
+                <li>Logo</li>
+                <li>Resume</li>
+                <li>Tag</li>
+                <li>T-Shirt</li>
+                <li>Brochure</li>
+                <li>Infographic</li>
                 <li>PowerPoint</li>
-                <li>Report Formatting</li>
+                <li>Report</li>
+                <li>Graphic</li>
+                <li>Photoshop</li>
                 <li>UI/UX</li>
-                <li>Graphics</li>
+                <li>Video Editing</li>
+                <li>Photo Editing</li>
+                <li>Animations</li>
               </ul>
             </div>
 
@@ -235,6 +241,9 @@ export default function Page() {
                 <li>Math in the Modern World</li>
                 <li>Statistics & Probability</li>
                 <li>Algebra</li>
+                <li>Geometry</li>
+                <li>Arithmetic</li>
+                <li>Kinetic</li>
               </ul>
             </div>
 
@@ -273,11 +282,23 @@ export default function Page() {
                 <li>Research</li>
                 <li>Capstone</li>
                 <li>Thesis</li>
-                <li>Essays</li>
-                <li>Case Studies</li>
+                <li>Reaction Paper</li>
+                <li>Analytical Paper</li>
+                <li>Essay</li>
+                <li>Narrative</li>
+                <li>Tula</li>
+                <li>Poem</li>
+                <li>Spoken Poetry</li>
+                <li>Lyrics</li>
+                <li>Speech</li>
+                <li>Script</li>
+                <li>Case Study</li>
+                <li>Lab Report</li>
+                <li>Business Plan</li>
+                <li>Project Proposal</li>
                 <li>Journal</li>
                 <li>Report</li>
-                <li>Narrative</li>
+                <li>RRL</li>
               </ul>
             </div>
           </div>
