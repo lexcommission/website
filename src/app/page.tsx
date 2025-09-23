@@ -520,7 +520,7 @@ export default function Page() {
               tutoring, and web development.
             </p>
           </div>
-
+          
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-pink-700 mb-3">Quick Links</h4>
@@ -531,7 +531,7 @@ export default function Page() {
               <li><a href="#contact" className="hover:text-pink-600">Contact</a></li>
             </ul>
           </div>
-
+      
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-pink-700 mb-3">Get in Touch</h4>
@@ -544,9 +544,9 @@ export default function Page() {
                 lexiecommission@gmail.com
               </a>
             </p>
-
+      
             <p className="mt-2">Office Hours: Monday - Sunday, 7am – 11pm</p>
-
+      
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
               <a
@@ -565,10 +565,18 @@ export default function Page() {
               >
                 <Icons.Twitter className="w-5 h-5" />
               </a>
+              <a
+                href="https://t.me/itsslexie"  
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-600 hover:text-pink-600"
+              >
+                <Icons.Send className="w-5 h-5" /> {/* Lucide's "Send" icon (Telegram style) */}
+              </a>
             </div>
           </div>
         </div>
-
+      
         <div className="border-t text-center py-4 text-xs text-slate-500">
           © {new Date().getFullYear()} LEXIE. All rights reserved.
         </div>
