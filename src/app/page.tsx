@@ -566,7 +566,7 @@ export default function Page() {
                 <Icons.Twitter className="w-5 h-5" />
               </a>
               <a
-                href="https://t.me/itsslexiie"  
+                href="https://t.me/itsslexie"  
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-pink-600"
